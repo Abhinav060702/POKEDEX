@@ -7,8 +7,8 @@ import usePokemonList from '../../hooks/usePokemonList.jsx';
 
 function PokemonList(){
 
-    
-    const[pokemonListState,setPokemonListState]=usePokemonList();
+    const DEFAULT_URL="https://pokeapi.co/api/v2/pokemon";
+    const[pokemonListState,setPokemonListState]=usePokemonList(DEFAULT_URL);
 
 
 

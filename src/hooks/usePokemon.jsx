@@ -27,7 +27,7 @@ function usePokemon(id){
     },[]);
 
 
-return [pokemon];
+return pokemon;
 
 }
 

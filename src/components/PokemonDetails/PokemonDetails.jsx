@@ -6,7 +6,7 @@ import usePokemon from '../../hooks/usePokemon';
 function PokemonDetails(){
 
     const {id} =useParams();
-    const [pokemon]=usePokemon();
+    const pokemon=usePokemon(id);
     return(
         <>
         <h1 className='pokedex-redirect'>
